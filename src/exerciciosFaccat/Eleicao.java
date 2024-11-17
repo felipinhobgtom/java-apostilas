@@ -17,9 +17,9 @@ public class Eleicao {
 
 		float total = validos + nulos + brancos;
 
-		System.out.printf("O percentual de votos validos é: %.2f %s %n", (validos / total) * 100, '%');
-		System.out.printf("O percentual de votos nulos é: %.2f %s %n", (nulos / total) * 100, '%');
-		System.out.printf("O percentual de votos brancos é: %.2f %s %n", (brancos / total) * 100, '%');
+		System.out.printf("O percentual de votos validos Ã©: %.2f %s %n", (validos / total) * 100, '%');
+		System.out.printf("O percentual de votos nulos Ã©: %.2f %s %n", (nulos / total) * 100, '%');
+		System.out.printf("O percentual de votos brancos Ã©: %.2f %s %n", (brancos / total) * 100, '%');
 		sc.close();
 	}
 }
