@@ -6,32 +6,33 @@ public class Exercicio01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int idade = 0;
+        System.out.println("Digite um número de 1 a 7.");
+        int semana = sc.nextInt();
 
-        do {
-            System.out.println("Digite a sua idade,");
-            idade = sc.nextInt();
-
-            if (idade < 0) {
-                System.out.println("Idade inválida.");
-            }
-        } while (idade < 0);
-
-        switch (idade) {
-            case 0:
+        switch (semana) {
             case 1:
+                System.out.println("Domingo");
+                break;
             case 2:
+                System.out.println("Segunda-feira");
+                break;
             case 3:
+                System.out.println("Terça-feira");
+                break;
             case 4:
+                System.out.println("Quarta-feira");
+                break;
             case 5:
+                System.out.println("Quinta-feira");
+                break;
             case 6:
+                System.out.println("Sexta-feira");
+                break;
             case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-                System.out.println("É uma criança");
+                System.out.println("Sábado");
+                break;
+            default:
+                System.out.println("Dia da semana inválido");
                 break;
         }
 
