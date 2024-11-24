@@ -26,5 +26,7 @@ public class Exercicio10 {
 
             System.out.printf("O fatorial de %d é %d", numero, resultado);
         }
+
+        sc.close();
     }
 }
