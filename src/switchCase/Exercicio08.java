@@ -7,7 +7,7 @@ public class Exercicio08 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Escolha a temperatura que deseja converter.\nF - para Fahrenheit\nC - para Celsius");
-        var choice = sc.next().toLowerCase();
+        String choice = sc.next().toLowerCase();
 
         float celsius = 0;
         float fahrenheit = 0;

@@ -6,16 +6,16 @@ public class SaldoDebitoCredito {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Digite o número da conta");
-        var conta = sc.next();
+        String conta = sc.next();
 
         System.out.println("Qual o seu saldo atual");
-        var saldoHolder = sc.nextFloat();
+        float saldoHolder = sc.nextFloat();
 
         System.out.println("Digite quanto de débito possui.");
-        var debito = sc.nextFloat();
+        float debito = sc.nextFloat();
 
         System.out.println("Digite quanto de crédito possui.");
-        var credito = sc.nextFloat();
+        float credito = sc.nextFloat();
 
         float saldo = (saldoHolder - debito) + credito;
 

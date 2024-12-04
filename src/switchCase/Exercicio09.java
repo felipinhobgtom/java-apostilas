@@ -7,7 +7,7 @@ public class Exercicio09 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Classificações etárias do filme:\nG\nPG\nPG-13\nR");
-        var opcao = sc.next().toLowerCase();
+        String opcao = sc.next().toLowerCase();
 
         switch (opcao) {
             case "g":

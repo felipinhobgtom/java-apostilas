@@ -13,7 +13,7 @@ public class Exercicio02 {
         float num2 = sc.nextFloat();
 
         System.out.println("Agora, digite o operador matemático:\n+, -, *, /");
-        var operador = sc.next();
+        String operador = sc.next();
 
         switch (operador) {
             case "*":

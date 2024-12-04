@@ -6,7 +6,7 @@ public class Exercicio04 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Escolha uma das 3 opções:\nA, B, C");
-        var opcao = sc.next().toLowerCase();
+        String opcao = sc.next().toLowerCase();
 
         switch (opcao){
             case "a":
