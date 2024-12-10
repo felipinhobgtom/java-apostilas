@@ -3,16 +3,17 @@ package exerciciosMetodo.metodoUm;
 import java.util.Scanner;
 
 public class Exercicio05 {
-    public static void maiorNumero(int num1, int num2) {
+    public int maiorNumero(int num1, int num2) {
         if (num1 < num2) {
-            System.out.println(num2 + " é o maior número");
+            return num2;
         } else {
-            System.out.println(num1 + " é o maior número");
+            return num1;
         }
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        Exercicio05 obj = new Exercicio05();
 
         System.out.println("Digite o primeiro número");
         int numero1 = sc.nextInt();
@@ -20,6 +21,6 @@ public class Exercicio05 {
         System.out.println("Digite o primeiro número");
         int numero2 = sc.nextInt();
 
-        maiorNumero(numero1, numero2);
+        System.out.println("O maior número é o: "+obj.maiorNumero(numero1, numero2));
     }
 }

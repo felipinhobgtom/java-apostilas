@@ -1,6 +1,8 @@
 package javaDesktop;
 
 import java.awt.*;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class JavaDesktop1 extends Frame {
 
@@ -15,7 +17,14 @@ public class JavaDesktop1 extends Frame {
 
         setLayout(null);
         setVisible(true);
+
+        addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e){
+                dispose();
+            }
+        });
     }
+
 
     public static void main(String[] args){
         JavaDesktop1 frame = new JavaDesktop1();
